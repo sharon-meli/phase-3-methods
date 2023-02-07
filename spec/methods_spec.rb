@@ -9,7 +9,7 @@ describe '#greet_programmer' do
   
 end
 
-describe '#greet' do
+ describe '#greet' do
 
   it 'outputs a string "Hello, Naureen!" when called with "Naureen"' do
     expect { greet("Naureen") }.to output(a_string_including("Hello, Naureen!")).to_stdout
